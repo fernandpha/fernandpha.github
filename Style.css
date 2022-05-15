@@ -1,0 +1,19 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+header {
+    position: fixed;
+    display: flex;
+    border: 5px red solid;
+}
+
+header li {
+    display: flex;
+    text-align: right;
+    margin-top: 5px;
+}
