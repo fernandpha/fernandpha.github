@@ -4,16 +4,25 @@
     margin: 0;
 }
 
-
+/* Barra de Navageción  */
 
 header {
     position: fixed;
     display: flex;
     border: 5px red solid;
+    width: 100%;
+}
+
+header nav {
+    
 }
 
 header li {
     display: flex;
     text-align: right;
     margin-top: 5px;
+}
+
+header li ul {
+    padding: 0;
 }
