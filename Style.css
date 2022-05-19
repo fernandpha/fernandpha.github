@@ -13,7 +13,7 @@ a {
     cursor: pointer;
 }
 
-/* Barra de Navageción  */
+/* Header  */
 
 header {
     width: 100%;
@@ -68,6 +68,13 @@ header p {
     padding-right: 32px;
 }
 
+/* Main */
+
+main {
+    background-color: grey;
+}
+
+/* Sobre Mi */
 
 
 
