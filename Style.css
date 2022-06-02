@@ -95,6 +95,19 @@ main .main-sobreMi {
 
 footer {
     background-color: black;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
 }
 
-/* Contacto */
+footer ul {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style: none;
+}
+
+footer h6 {
+    display: flex;
+    justify-content: center;
+}
