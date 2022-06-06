@@ -1,15 +1,14 @@
 :root {
-    
+    --color_text-primary: #B330B8;
+    --color_white: #ffffff;
+    --color_black: #000000;
 }
-
 * {
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
-    color: #B330B8;
-}
-
-body {
+    box-sizing: border-box;
+    color: var(--color_text-primary);
 }
 
 a {
@@ -20,3 +19,61 @@ a {
 ul {
     list-style: none;
 }
+
+.container__nav {
+    background-color: var(--color_black);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: all 300ms;
+}
+
+nav ul li {
+    margin-top: 12px;
+}
+
+nav ul li a {
+    font-size: 28px;
+}
+
+.list1__menu-nav {}
+
+.menu__icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__hamburguesa {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    left: 89%;
+    margin-top: 4px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.menu__hamburguesa span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--color_text-primary);
+    margin-top: 6px;
+    transition: all 300ms;
+    transform-origin: 0px 100%;
+}
+
+.activelist1__bars-menu {
+    transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.activelist2__bars-menu {
+    opacity: 0;
+    margin-left: -30pxs;
+}
+
+.activelist3__bars-menu {
+    transform: rotate(-45deg) translate(-4px, 2px);
+}
+
