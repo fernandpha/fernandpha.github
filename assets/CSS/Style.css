@@ -161,14 +161,47 @@ nav ul li a {
     transform: rotate(45deg) translate(-2px, 1px);
 }
 
-.contenedor-presentacion__imagen {
+ /* Presentacion */
+
+.contenedor-presentacion {
+    padding: var(--mb-3);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
 }
 
+ .contenedor-presentacion__imagen {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    object-position: center;
+    border-radius: 5px;
+ }
 
+ h1 {
+    font-size: var(--h1-font-size);
+ }
 
+ h3 {
+    font-size: var(--h3-font-size);
+ }
 
+ p {
+    font-size: var(--small-font-size);
+ }
 
+ /* About */
 
+ /* Skills */
+
+ /* Services */
+
+ /* Portfolio */
+
+ /* Contacme */
+
+ /* Footer */
 
 
 
